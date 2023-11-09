@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let N = 23451677;
+    let p, q;
+    let g = 100;
+    let r = 0;
+    let acumulador=1;
+    let residuo = g % N; 
+    let factor1;
+    let factor2;
+    let restante;
+    let dividendo;
+    let divisor;
+
+    
+        
+        while( residuo != 1 ){
+            acumulador = acumulador * g;
+            residuo = acumulador % N;
+            r = r + 1;
+            //console.log(residuo);
+        }
+    
+    factor1 = Math.pow(g, r/2) + 1;
+    factor2 = Math.pow(g, r/2) - 1;
+    divisor = N;
+    dividendo = factor1;
+    restante = dividendo % divisor ;
+
+    while( restante != 0 ){
+        dividendo = divisor;
+        divisor= restante;
+        restante = dividendo % divisor;
+        
+    }
+    p = divisor;
+    q = N / p;
+    console.log("Los factores son: " + p + "," + q);
+</script>
+</html>
