@@ -7,11 +7,51 @@
 ---
 citas
 
+
 > frase
+> 
+~~texto tachado~~
 
 lista
 
-[] uno
-[] dos
+- cero
+- uno
+- dos
+
+texto normal `sin formato` texto
 
 
+formato de codigo
+
+```
+codigo 
+```
+
+Listas numeradas
+
+1. uno
+2. dos
+3. tres
+
+```
+![aquí si quieres puedes incluir el nombre de la imagen](agrega aquí la ruta de la imagen)
+```
+
+# Redimensionar imágenes
+
+Esto lo puedes hacer de una forma muy sencilla, solo debes agregar dentro de los corchetes una | (pleca), y asignar el número de pixeles deseados.
+
+# Crear tablas en Markdown
+Para crear el cabecero de la tabla debes hacerlo con | (plecas)  y – (guiones) de la siguiente manera:
+
+|celda 1|celda 2|
+|---|---|
+|uno|dos|
+
+
+lista de verificacion
+
+- [x] uno
+- [ ] dos
+
+- [ ] 
