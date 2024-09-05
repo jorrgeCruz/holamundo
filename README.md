@@ -1,4 +1,10 @@
-**palabras en negrita**
+# Titulo
+
+## Titulo mas pequeño
+
+### mas pequeño aun
+---
+palabra normal `**palabras en negrita**`
 
 *palabras en cursiva*
 
@@ -8,12 +14,11 @@
 citas
 
 
-> frase
-> 
+> esta información la obtube de google
+ 
 ~~texto tachado~~
 
 lista
-
 - cero
 - uno
 - dos
@@ -44,14 +49,17 @@ Esto lo puedes hacer de una forma muy sencilla, solo debes agregar dentro de los
 # Crear tablas en Markdown
 Para crear el cabecero de la tabla debes hacerlo con | (plecas)  y – (guiones) de la siguiente manera:
 
-|celda 1|celda 2|
-|---|---|
-|uno|dos|
+|celda 1|celda 2|celda 3|
+|---|---|---|
+|uno|dos|tres|
+
+
+![exotico](https://github.com/user-attachments/assets/51edc4e7-8827-4b8f-830d-542614188808)
 
 
 lista de verificacion
 
 - [x] uno
 - [ ] dos
+- [x] tres
 
-- [ ] 
