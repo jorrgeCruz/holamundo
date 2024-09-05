@@ -54,7 +54,7 @@ Para crear el cabecero de la tabla debes hacerlo con | (plecas)  y – (guiones)
 |uno|dos|tres|
 
 
-![exotico](https://github.com/user-attachments/assets/51edc4e7-8827-4b8f-830d-542614188808)
+![exotico|100](https://github.com/user-attachments/assets/51edc4e7-8827-4b8f-830d-542614188808)
 
 
 lista de verificacion
